@@ -10,9 +10,9 @@ public class Employee{
     
     public double calculatSalary (double basicSalary){
         double Salary = basicSalary + (basicSalary * 0.05 * Experience)
-        if(Educational_level.equals(Bachelor Degree))
+        if(Educational_level.equals("Bachelor Degree"))
             Salary += 500;
-        else if (Educational_level.equals(Diploma))
+        else if (Educational_level.equals("Diploma"))
             Salary += 250;
         this.salary = Salary;
         return Salary;
